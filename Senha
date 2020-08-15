@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Trabalhandostrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scanner = new Scanner(System.in);
+
+//System.out.println("Digite uma palavra: ");
+
+//String palavra = scanner.nextLine();
+
+//System.out.println(palavra.length());
+
+System.out.println("Digite uma senha: ");
+
+String senha = scanner.nextLine();
+
+
+if ( senha.length() >= 8 ) {
+        System.out.println("Tudo certo!");
+        
+
+	} else 
+	{
+		System.out.println("A senha precisa ter no mínimo 8 caracteres");
+	}
+
+	}
+}
+
