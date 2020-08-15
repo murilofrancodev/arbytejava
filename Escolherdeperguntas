@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class SGE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		//Para fazer perguntas, Escolha de perguntas.
+		System.out.println("digito o primeiro numero");
+		int numero1 = scanner.nextInt();
+		
+		System.out.println("digito o segundo numero");
+		int numero2 = scanner.nextInt();
+		
+		if( numero2 > 0) {
+			int resultado = numero1 / numero2;
+			System.out.println(resultado);
+			
+		
+		} else {
+			System.out.println("Número precisa ser maior que 0");
+		
+	} 
+	
+		
+		
+	}	
+	
+}
